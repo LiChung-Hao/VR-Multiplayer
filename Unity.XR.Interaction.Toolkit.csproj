@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Interaction\Controllers\ActionBasedController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Locomotion\Continuous\ActionBasedContinuousTurnProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Locomotion\Continuous\ActionBasedContinuousMoveProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Interaction\Controllers\XRControllerRecorder.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Inputs\Simulation\XRSimulatedHMDState.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\UI\TouchModel.cs" />
@@ -72,7 +74,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Interaction\Interactors\Helpers\XRInteractorLineVisual.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Locomotion\Teleportation\TeleportationArea.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Interaction\Interactors\XRBaseInteractor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Locomotion\Continuous\ActionBasedContinuousTurnProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\AR\Gestures\TwoFingerDragGestureRecognizer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\AR\Gestures\GestureRecognizer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\AR\Gestures\GestureTouchesUtility.cs" />
@@ -128,7 +129,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\UI\TrackedDeviceEventData.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Interaction\Interactors\XRBaseInteractor.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\XR\GizmoHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Locomotion\Continuous\ActionBasedContinuousMoveProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\AR\Interactables\ARPlacementInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Interaction\Interactables\XRBaseInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4\Runtime\Utilities\EditorComponentLocatorUtility.cs" />
