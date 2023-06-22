@@ -1,4 +1,0 @@
-#Thu Jun 22 14:23:56 EDT 2023
-base.0=D\:\\unity\\0-VR\\0-Multiplayer\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
