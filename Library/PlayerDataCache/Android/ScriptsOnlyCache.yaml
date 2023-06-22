@@ -3,6 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ActionBasedControllerManager
     - AvatarInputConverter
+    - ButtonInteraction
+    - UI_InteractionController
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
     Unity.InputSystem.dll:
@@ -19,6 +21,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.XR.Interaction.Toolkit.dll:
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousMoveProvider
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousTurnProvider
@@ -27,6 +30,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
     - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
+    - UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
+    - UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule
     - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
@@ -45,6 +50,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   sceneClasses:
     Assets/IRONHEAD Games/Scenes/HomeScene.unity:
     - Class: 1
@@ -90,6 +101,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 460}
     - Class: 114
+      Script: {instanceID: 1506}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
       Script: {instanceID: 1870}
     - Class: 114
       Script: {instanceID: 1884}
@@ -102,11 +117,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2584}
     - Class: 114
+      Script: {instanceID: 2606}
+    - Class: 114
+      Script: {instanceID: 2738}
+    - Class: 114
+      Script: {instanceID: 2790}
+    - Class: 114
       Script: {instanceID: 2894}
     - Class: 114
       Script: {instanceID: 3072}
     - Class: 114
       Script: {instanceID: 3094}
+    - Class: 114
+      Script: {instanceID: 3288}
     - Class: 114
       Script: {instanceID: 3590}
     - Class: 114
@@ -128,9 +151,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4862}
     - Class: 114
-      Script: {instanceID: 24336}
+      Script: {instanceID: 5002}
     - Class: 114
-      Script: {instanceID: 24338}
+      Script: {instanceID: 5322}
+    - Class: 114
+      Script: {instanceID: 20380}
+    - Class: 114
+      Script: {instanceID: 22468}
+    - Class: 114
+      Script: {instanceID: 22470}
+    - Class: 114
+      Script: {instanceID: 23164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -145,7 +176,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 215
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
@@ -990,6 +1029,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: XRUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 2809fe7d965e14a319396b53eb64914a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UI_InteractionController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonInteraction
   platform: 13
   scenePathNames:
   - Assets/IRONHEAD Games/Scenes/HomeScene.unity

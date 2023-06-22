@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\IRONHEAD Games\Scripts\AvatarInputConverter.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\ActionBasedControllerManager.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\UI_InteractionController.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\ButtonInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
