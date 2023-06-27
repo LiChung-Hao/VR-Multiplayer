@@ -46,6 +46,7 @@ public class LoginManager : MonoBehaviourPunCallbacks //so we know if connection
     public override void OnConnectedToMaster()
     {
         Debug.Log("Connected to master server (photon)! The name: "+PhotonNetwork.NickName);
+        PhotonNetwork.LoadLevel("HomeScene");
     }
     #endregion
 }
