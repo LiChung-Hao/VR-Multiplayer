@@ -66,6 +66,7 @@
     <Compile Include="Assets\IRONHEAD Games\Scripts\AvatarInputConverter.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\ActionBasedControllerManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\LoginManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\ButtonInteraction.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
@@ -74,7 +75,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\IRONHEAD Games\Scripts\LoginManager.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\LoginUIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
