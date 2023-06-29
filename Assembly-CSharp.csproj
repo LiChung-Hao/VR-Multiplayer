@@ -75,6 +75,7 @@
     <Compile Include="Assets\IRONHEAD Games\Scripts\ActionBasedControllerManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\BackspaceKey.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\RoomManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\LoginManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\SpaceKey.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\ClearKey.cs" />
@@ -95,7 +96,6 @@
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Mallet.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LayoutList.cs" />
-    <Compile Include="Assets\IRONHEAD Games\Scripts\RoomManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
