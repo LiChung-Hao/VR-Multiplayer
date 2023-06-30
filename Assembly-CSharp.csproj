@@ -96,6 +96,7 @@
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Mallet.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LayoutList.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\MultiplayerVRConstants.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
