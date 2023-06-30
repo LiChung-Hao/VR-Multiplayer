@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ActionBasedControllerManager
     - AvatarInputConverter
-    - ButtonInteraction
     - LoginManager
     - LoginUIManager
     - RoomManager
@@ -21,6 +20,7 @@ ScriptsOnlyBuild:
     - VRKeys.Placement
     - VRKeys.ShiftKey
     - VRKeys.SpaceKey
+    - VirtualWorldManager
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -90,6 +90,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.Shadow
@@ -140,6 +141,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1524}
     - Class: 114
+      Script: {instanceID: 1836}
+    - Class: 114
       Script: {instanceID: 1938}
     - Class: 114
       Script: {instanceID: 1952}
@@ -170,8 +173,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3982}
     - Class: 114
-      Script: {instanceID: 4052}
-    - Class: 114
       Script: {instanceID: 4116}
     - Class: 114
       Script: {instanceID: 4358}
@@ -182,13 +183,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4556}
     - Class: 114
-      Script: {instanceID: 4970}
+      Script: {instanceID: 4974}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 5146}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5456}
     - Class: 114
-      Script: {instanceID: 5818}
+      Script: {instanceID: 5824}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -349,35 +350,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4556}
     - Class: 114
-      Script: {instanceID: 4620}
+      Script: {instanceID: 4624}
     - Class: 114
-      Script: {instanceID: 4744}
+      Script: {instanceID: 4748}
     - Class: 114
-      Script: {instanceID: 4826}
+      Script: {instanceID: 4830}
     - Class: 114
-      Script: {instanceID: 4920}
+      Script: {instanceID: 4924}
     - Class: 114
-      Script: {instanceID: 4944}
+      Script: {instanceID: 4948}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 5146}
     - Class: 114
-      Script: {instanceID: 5292}
+      Script: {instanceID: 5298}
     - Class: 114
-      Script: {instanceID: 5294}
+      Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5328}
+      Script: {instanceID: 5334}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5456}
     - Class: 114
-      Script: {instanceID: 5486}
+      Script: {instanceID: 5492}
     - Class: 114
-      Script: {instanceID: 5548}
+      Script: {instanceID: 5554}
     - Class: 114
-      Script: {instanceID: 5870}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 20158}
+      Script: {instanceID: 46218}
     - Class: 114
-      Script: {instanceID: 21218}
+      Script: {instanceID: 47278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -409,6 +410,128 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/IRONHEAD Games/Scenes/World_Outdoor.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 452}
+    - Class: 114
+      Script: {instanceID: 1952}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2740}
+    - Class: 114
+      Script: {instanceID: 3300}
+    - Class: 114
+      Script: {instanceID: 3856}
+    - Class: 114
+      Script: {instanceID: 4358}
+    - Class: 114
+      Script: {instanceID: 4556}
+    - Class: 114
+      Script: {instanceID: 5146}
+    - Class: 114
+      Script: {instanceID: 37492}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/IRONHEAD Games/Scenes/World_School.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 452}
+    - Class: 114
+      Script: {instanceID: 1952}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2740}
+    - Class: 114
+      Script: {instanceID: 3300}
+    - Class: 114
+      Script: {instanceID: 3856}
+    - Class: 114
+      Script: {instanceID: 4358}
+    - Class: 114
+      Script: {instanceID: 4556}
+    - Class: 114
+      Script: {instanceID: 5146}
+    - Class: 114
+      Script: {instanceID: 37492}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 215
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
@@ -2255,8 +2378,16 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VirtualWorldManager
   platform: 13
   scenePathNames:
   - Assets/IRONHEAD Games/Scenes/LoginScene.unity
   - Assets/IRONHEAD Games/Scenes/HomeScene.unity
+  - Assets/IRONHEAD Games/Scenes/World_Outdoor.unity
+  - Assets/IRONHEAD Games/Scenes/World_School.unity
   playerPath: D:/unity/0-VR/Z-Build/0/Test2.apk
