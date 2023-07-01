@@ -15,12 +15,12 @@ D:/unity/0-VR/0-Multiplayer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50722
+58438
 Successfully changed project path to: D:/unity/0-VR/0-Multiplayer
 D:/unity/0-VR/0-Multiplayer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 227.19 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 16.21 ms.
+Refreshing native plugins compatible for Editor in 55.99 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 8.23 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/unity/0-VR/0-Multiplayer/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019373 seconds.
+Registered in 0.002770 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 218.56 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 49.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 17.534 seconds
+- Completed reload, in  2.772 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.029953 seconds.
+Registered in 0.018888 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.49 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 38.80 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,19 +63,19 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.240 seconds
+- Completed reload, in  1.191 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.7 MB.
-System memory in use after: 94.7 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.8 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2635.
-Total: 23.969700 ms (FindLiveObjects: 0.444700 ms CreateObjectMapping: 0.177100 ms MarkObjects: 22.703400 ms  DeleteObjects: 0.642200 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2636.
+Total: 8.047700 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.094200 ms MarkObjects: 7.017600 ms  DeleteObjects: 0.606000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -91,129 +91,145 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379246992daee4a72c21d3f416af1fbc') in 0.223921 seconds 
-  Import took 0.238547 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639a878c460b3eef51da139c2d569bb4') in 0.115595 seconds 
+  Import took 0.126300 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 485.840765 seconds.
+  Time since last request: 415.015502 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fba8214f1cac31c6ecff01ebc2fa22') in 0.007551 seconds 
-  Import took 0.023554 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9619511c7e9fd1eea90a31720513e790') in 0.003674 seconds 
+  Import took 0.009867 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011305 seconds.
+  Time since last request: 0.001888 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fba8214f1cac31c6ecff01ebc2fa22') in 0.003399 seconds 
-  Import took 0.008891 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9619511c7e9fd1eea90a31720513e790') in 0.002223 seconds 
+  Import took 0.006164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 637.087659 seconds.
+  Time since last request: 677.454327 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd8baa3bcff1700b95afa81e4bfe965') in 0.002698 seconds 
-  Import took 0.007640 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5afa902b1be0672ea943cba2841e1f') in 0.004906 seconds 
+  Import took 0.020839 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.044216 seconds.
+  Time since last request: 97.363981 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e42bde50e38bc0a347afd4baa8f7892') in 0.002451 seconds 
-  Import took 0.006109 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2346ed320788a60e295da3063668cf65') in 0.005293 seconds 
+  Import took 0.011314 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004270 seconds.
+  Time since last request: 0.011255 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e42bde50e38bc0a347afd4baa8f7892') in 0.002068 seconds 
-  Import took 0.007573 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2346ed320788a60e295da3063668cf65') in 0.002893 seconds 
+  Import took 0.007960 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.228898 seconds.
+  Time since last request: 40.122989 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8477ac0a1470f46d19a1e0f1877f6a00') in 0.002169 seconds 
-  Import took 0.006892 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b0ea837e2cdc496332e718413de9af') in 0.003493 seconds 
+  Import took 0.009738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001608 seconds.
+  Time since last request: 112.420781 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8477ac0a1470f46d19a1e0f1877f6a00') in 0.002460 seconds 
-  Import took 0.008311 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc663be48967a09347ca2fef97a94f8e') in 0.002842 seconds 
+  Import took 0.006939 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.664435 seconds.
+  Time since last request: 0.000728 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3568060e7be98a21acaf9b5bbb217cb') in 0.002801 seconds 
-  Import took 0.007106 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc663be48967a09347ca2fef97a94f8e') in 0.002207 seconds 
+  Import took 0.008055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.106998 seconds.
+  Time since last request: 42.205638 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5510f274e392ac0668ab7aeb95ec9242') in 0.005624 seconds 
-  Import took 0.012983 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7291971dbd2b64787b75a4a9ee33d5c2') in 0.004280 seconds 
+  Import took 0.009151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.517996 seconds.
+  Time since last request: 0.000960 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e796a499b0b680c641cb1a750a77ed7e') in 0.002654 seconds 
-  Import took 0.007557 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7291971dbd2b64787b75a4a9ee33d5c2') in 0.002238 seconds 
+  Import took 0.006999 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 288.575656 seconds.
+  Time since last request: 79.184436 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fa443566f6957bd2e2dd5ae631d72f') in 0.003247 seconds 
-  Import took 0.008715 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60876b1005d61148204e9c072963952') in 0.002155 seconds 
+  Import took 0.005495 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.173617 seconds.
+  Time since last request: 0.007506 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d170db226f4650fc2b3b89e7a0ea8d') in 0.002779 seconds 
-  Import took 0.007679 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60876b1005d61148204e9c072963952') in 0.002538 seconds 
+  Import took 0.006741 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.324072 seconds.
+  Time since last request: 92.194001 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf38bd745b425c9f582c19917577b7a9') in 0.002300 seconds 
-  Import took 0.006314 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11623e493bb4d05b0ee07fa5ba5397e6') in 0.002333 seconds 
+  Import took 0.007242 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001072 seconds.
+  Time since last request: 0.002320 seconds.
   path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
   artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf38bd745b425c9f582c19917577b7a9') in 0.002393 seconds 
-  Import took 0.007251 seconds .
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11623e493bb4d05b0ee07fa5ba5397e6') in 0.002330 seconds 
+  Import took 0.007215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.317668 seconds.
+  path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
+  artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8733782f8fa3b00f6a1b5a651d6303') in 0.002567 seconds 
+  Import took 0.007475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001153 seconds.
+  path: Assets/IRONHEAD Games/Scripts/RoomManager.cs
+  artifactKey: Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/RoomManager.cs using Guid(1edea4155628f6f4ba68c7445251f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8733782f8fa3b00f6a1b5a651d6303') in 0.002239 seconds 
+  Import took 0.006479 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017697 seconds.
+Registered in 0.019736 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -221,17 +237,17 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
+- Completed reload, in  1.367 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2174 Unused Serialized files (Serialized files now loaded: 0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.1 MB.
 System memory in use after: 93.2 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2640.
-Total: 7.819000 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.091000 ms MarkObjects: 7.441600 ms  DeleteObjects: 0.066100 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 12.144500 ms (FindLiveObjects: 0.626800 ms CreateObjectMapping: 0.097600 ms MarkObjects: 10.940600 ms  DeleteObjects: 0.477600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -246,20 +262,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 129.858375 seconds.
+  Time since last request: 518.014758 seconds.
   path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
   artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc926cc4b604edb9ec8cd0ca21d91cb4') in 0.060666 seconds 
-  Import took 0.066399 seconds .
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0daa0272abc0224fab6e46178e428612') in 0.070100 seconds 
+  Import took 0.079558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005069 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
+  artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0daa0272abc0224fab6e46178e428612') in 0.003109 seconds 
+  Import took 0.006422 seconds .
 
 ========================================================================
 Received Prepare
+Refreshing native plugins compatible for Editor in 17.14 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.9 MB.
+System memory in use after: 51.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 4.466900 ms (FindLiveObjects: 0.818100 ms CreateObjectMapping: 0.174700 ms MarkObjects: 3.371100 ms  DeleteObjects: 0.101600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.024000 seconds.
+Registered in 0.020628 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.74 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -267,17 +312,84 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
+- Completed reload, in  2.836 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2174 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.1 MB.
-System memory in use after: 93.2 MB.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.2 MB.
+System memory in use after: 93.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2645.
-Total: 2.704500 ms (FindLiveObjects: 0.205500 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.326700 ms  DeleteObjects: 0.062400 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 5.432700 ms (FindLiveObjects: 0.467800 ms CreateObjectMapping: 0.187800 ms MarkObjects: 4.663400 ms  DeleteObjects: 0.111600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 797.056784 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
+  artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2118c1b03c4482db0ff901626ab0dbb6') in 0.081141 seconds 
+  Import took 0.090991 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.08 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.0 MB.
+System memory in use after: 51.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 3.309100 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.953800 ms  DeleteObjects: 0.068000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.2 MB.
+System memory in use after: 93.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2651.
+Total: 2.272800 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.920100 ms  DeleteObjects: 0.050100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
