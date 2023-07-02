@@ -69,6 +69,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\LoginUIManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Layout.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\ShiftKey.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\AvatarInputConverter.cs" />
@@ -98,7 +99,7 @@
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Mallet.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LayoutList.cs" />
-    <Compile Include="Assets\IRONHEAD Games\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\PlayerNetworkSetup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
