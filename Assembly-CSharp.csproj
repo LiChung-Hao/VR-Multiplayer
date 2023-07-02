@@ -64,6 +64,7 @@
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Layouts\Dvorak.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LetterKey.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\VirtualWorldManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\LoginUIManager.cs" />
@@ -97,7 +98,7 @@
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Mallet.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LayoutList.cs" />
-    <Compile Include="Assets\IRONHEAD Games\Scripts\VirtualWorldManager.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\SpawnManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
