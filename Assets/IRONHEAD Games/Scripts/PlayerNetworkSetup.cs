@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 using Photon.Pun;
 
 public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
@@ -18,6 +19,18 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
             LocalVRRigPlayerGameObject.SetActive(true);
             SetLayerRecursively(AvatarHeadGameObject, 6);
             SetLayerRecursively(AvatarBodyGameObject, 7);
+
+            TeleportationArea[] teleportationAreas=GameObject.FindObjectsOfType<TeleportationArea>();
+
+            if (teleportationAreas.Length > 0)
+            {
+                Debug.Log("Found " + teleportationAreas.Length + " teleport areas.");
+                foreach (var item in teleportationAreas)
+                {
+                    item.teleportationProvider=LocalVRRigPlayerGameObject.GetComponent<TeleportationProvider>();
+                }
+            }
+
         }
         else
         {
