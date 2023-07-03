@@ -87,6 +87,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Keyboard.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Layouts\French.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\LocalPlayerUIManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Key.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Example\DemoScene.cs" />
@@ -100,7 +101,7 @@
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Mallet.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LayoutList.cs" />
-    <Compile Include="Assets\IRONHEAD Games\Scripts\LocalPlayerUIManager.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\MultiplayerVRSynchronization.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
