@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - LoginManager
     - LoginUIManager
     - MultiplayerVRSynchronization
+    - NetworkedGrabbing
     - PlayerNetworkSetup
     - RoomManager
     - SpawnManager
@@ -405,9 +406,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5886}
     - Class: 114
-      Script: {instanceID: 19672}
+      Script: {instanceID: 26074}
     - Class: 114
-      Script: {instanceID: 20732}
+      Script: {instanceID: 27134}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -582,7 +583,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -637,6 +642,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3914}
     - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
       Script: {instanceID: 4124}
     - Class: 114
       Script: {instanceID: 4318}
@@ -653,7 +660,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5156}
     - Class: 114
+      Script: {instanceID: 5308}
+    - Class: 114
       Script: {instanceID: 5466}
+    - Class: 114
+      Script: {instanceID: 21634}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2553,6 +2564,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworkedGrabbing
   platform: 13
   scenePathNames:
   - Assets/IRONHEAD Games/Scenes/LoginScene.unity

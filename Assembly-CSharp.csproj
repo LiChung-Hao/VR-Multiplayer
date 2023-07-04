@@ -73,6 +73,7 @@
     <Compile Include="Assets\IRONHEAD Games\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Layout.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\ShiftKey.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\MultiplayerVRSynchronization.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\AvatarInputConverter.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\VRKeyboardManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\ActionBasedControllerManager.cs" />
@@ -101,7 +102,7 @@
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Mallet.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LayoutList.cs" />
-    <Compile Include="Assets\IRONHEAD Games\Scripts\MultiplayerVRSynchronization.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\NetworkedGrabbing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
