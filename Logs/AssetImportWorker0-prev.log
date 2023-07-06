@@ -15,12 +15,12 @@ D:/unity/0-VR/0-Multiplayer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64712
+62345
 Successfully changed project path to: D:/unity/0-VR/0-Multiplayer
 D:/unity/0-VR/0-Multiplayer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.54 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 1.30 ms.
+Refreshing native plugins compatible for Editor in 58.23 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.29 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/unity/0-VR/0-Multiplayer/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003243 seconds.
+Registered in 0.003001 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.44 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 38.78 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.359 seconds
+- Completed reload, in  2.168 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020077 seconds.
+Registered in 0.020437 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.16 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 38.11 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,19 +63,19 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.462 seconds
+- Completed reload, in  1.062 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.0 MB.
 System memory in use after: 95.1 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2641.
-Total: 2.274600 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.097400 ms MarkObjects: 1.852900 ms  DeleteObjects: 0.091100 ms)
+Total: 2.275800 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.078300 ms MarkObjects: 1.929000 ms  DeleteObjects: 0.083300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -89,139 +89,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f80f36c83c2f51f627b5f196829472') in 0.041170 seconds 
-  Import took 0.047628 seconds .
+  path: Assets/IRONHEAD Games/Prefabs/Avatar Selection Prefabs
+  artifactKey: Guid(1fae656d9d4175744913fdafb7c601fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatar Selection Prefabs using Guid(1fae656d9d4175744913fdafb7c601fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec1ea2b588fd8c7d068e0bf1a0434f9') in 0.014125 seconds 
+  Import took 0.019537 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.657397 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e688b3a82a357755a57e95f8bdffe4d5') in 0.017893 seconds 
-  Import took 0.264045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.993765 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa6450da36cf141c4abd251391b194c') in 0.002953 seconds 
-  Import took 0.009737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.082568 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5308e7b1fbe8dbe74839a2365859f0d') in 0.002942 seconds 
-  Import took 0.007906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001128 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5308e7b1fbe8dbe74839a2365859f0d') in 0.002188 seconds 
-  Import took 0.007081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.421266 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee679de9b4cce3fdf8898ebdd5d9ecd') in 0.002529 seconds 
-  Import took 0.008527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.158786 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa46ce83e6d914ac5ac6376613a991d3') in 0.002296 seconds 
-  Import took 0.007461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 235.624122 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f413d4303390061660290a8082b58b9') in 0.002485 seconds 
-  Import took 0.012436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001525 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f413d4303390061660290a8082b58b9') in 0.004541 seconds 
-  Import took 0.012492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.306878 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1e9dd9efcd88fd831ecd6a4aeac022') in 0.001945 seconds 
-  Import took 0.006826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001659 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1e9dd9efcd88fd831ecd6a4aeac022') in 0.001708 seconds 
-  Import took 0.007119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.929562 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edd4e2aebd8ffcc6b7477147700b46a') in 0.002424 seconds 
-  Import took 0.007487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.395220 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6dd4e0cdba3b3e3ca5f0c30f6575c7') in 0.002571 seconds 
-  Import took 0.008189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.037078 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef17aa148e527e288e6731bb4b502a8') in 0.002505 seconds 
-  Import took 0.006824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.256599 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bc288ba53fe1b291e31ab64bed079b') in 0.002339 seconds 
-  Import took 0.007014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.491265 seconds.
-  path: Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs
-  artifactKey: Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scripts/NetworkedGrabbing.cs using Guid(51a6d89b8be0476429e1a58b0afac0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f2780f2fb823142e04358dd412901d') in 0.002153 seconds 
-  Import took 0.006920 seconds .
+  Time since last request: 0.000522 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatar Selection Prefabs/AvatarSelectionPlatform.prefab
+  artifactKey: Guid(43be1c43d5fc9f448a974c20312e9e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatar Selection Prefabs/AvatarSelectionPlatform.prefab using Guid(43be1c43d5fc9f448a974c20312e9e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f04b77da5c6986b3c38d97aae64bfc') in 0.302190 seconds 
+  Import took 0.308388 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017874 seconds.
+Registered in 0.015939 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -229,17 +117,17 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.695 seconds
+- Completed reload, in  1.016 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 2180 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.3 MB.
-System memory in use after: 93.4 MB.
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2646.
-Total: 8.750300 ms (FindLiveObjects: 0.575800 ms CreateObjectMapping: 0.124300 ms MarkObjects: 7.636000 ms  DeleteObjects: 0.412800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 2.682500 ms (FindLiveObjects: 0.233100 ms CreateObjectMapping: 0.071600 ms MarkObjects: 2.323300 ms  DeleteObjects: 0.053700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -254,28 +142,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 171.789612 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f811e5b87cddd4bb1fe2340a352f77') in 0.073009 seconds 
-  Import took 0.080379 seconds .
+  Time since last request: 422.638257 seconds.
+  path: Assets/IRONHEAD Games/Resources/Generic VR Player.prefab
+  artifactKey: Guid(b3aff8450ddab774b947bc6e6ad5810e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resources/Generic VR Player.prefab using Guid(b3aff8450ddab774b947bc6e6ad5810e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4042c58660e9eb93fbb8238adad9256d') in 0.201754 seconds 
+  Import took 0.205522 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.517152 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e467dc7a516251881ffd35dffa954c') in 0.002223 seconds 
-  Import took 0.007758 seconds .
+  Time since last request: 23.983766 seconds.
+  path: Assets/IRONHEAD Games/Resources/Generic VR Player.prefab
+  artifactKey: Guid(b3aff8450ddab774b947bc6e6ad5810e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resources/Generic VR Player.prefab using Guid(b3aff8450ddab774b947bc6e6ad5810e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a89508c7de2480ea3300d4092ec53f4') in 0.029942 seconds 
+  Import took 0.035597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 476.100261 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Avatar Selection Script
+  artifactKey: Guid(5a785441089362941b287c8acd15c31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Avatar Selection Script using Guid(5a785441089362941b287c8acd15c31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05955af5d1c1c9ad613504631c0c9f12') in 0.007700 seconds 
+  Import took 0.013584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.684769 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Avatar Selection Script/AvatarSelectionManager.cs
+  artifactKey: Guid(b2a95dacce996fb479f61787394ea4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Avatar Selection Script/AvatarSelectionManager.cs using Guid(b2a95dacce996fb479f61787394ea4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d58c4500a861bcd6c67ca14910fe608') in 0.021462 seconds 
+  Import took 0.027009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001507 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Avatar Selection Script/AvatarSelectionManager.cs
+  artifactKey: Guid(b2a95dacce996fb479f61787394ea4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Avatar Selection Script/AvatarSelectionManager.cs using Guid(b2a95dacce996fb479f61787394ea4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d58c4500a861bcd6c67ca14910fe608') in 0.002746 seconds 
+  Import took 0.008663 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.018716 seconds.
+Registered in 0.014592 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -283,17 +195,55 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
+- Completed reload, in  1.123 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2180 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.5 MB.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2651.
-Total: 2.659200 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.310700 ms  DeleteObjects: 0.068200 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2661.
+Total: 2.701500 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.238700 ms  DeleteObjects: 0.197900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2666.
+Total: 2.807800 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.377900 ms  DeleteObjects: 0.062500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -308,20 +258,252 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.437830 seconds.
-  path: Assets/IRONHEAD Games/Resources/Generic VR Player.prefab
-  artifactKey: Guid(b3aff8450ddab774b947bc6e6ad5810e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Resources/Generic VR Player.prefab using Guid(b3aff8450ddab774b947bc6e6ad5810e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d9236aaa19859e4aea21bc087f1f4d') in 0.292757 seconds 
-  Import took 0.297771 seconds .
+  Time since last request: 1054.714575 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab
+  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2476894ea8d5c0cbac5e48804b4c3bb3') in 0.106326 seconds 
+  Import took 0.110787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.070866 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab
+  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0bd00d15e823e45921f17cacc319ec') in 0.016521 seconds 
+  Import took 0.021116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.724816 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab
+  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62346b740ba854cae32e98a96a97540') in 0.010829 seconds 
+  Import took 0.015329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.387502 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab
+  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ebd3d81ef765d463bea1fec0b2c2b5') in 0.010959 seconds 
+  Import took 0.015685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.735275 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab
+  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3a0d977a0c52e698fa689af3a55ed5') in 0.016161 seconds 
+  Import took 0.022008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.586974 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab
+  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a10da68adb320cbe0d4565ddcc3db5') in 0.011019 seconds 
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.544657 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab
+  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a17c19940f35de3fa4de975bab05c5') in 0.020055 seconds 
+  Import took 0.024752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.852672 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab
+  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b6557084b2472b3d7227c90d96b09b') in 0.013527 seconds 
+  Import took 0.017737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.510466 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab
+  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f27e1cce666da4125f8e9198453b39') in 0.013876 seconds 
+  Import took 0.018395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.518060 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab
+  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eec35b72beb262b149b071550bf53c') in 0.013795 seconds 
+  Import took 0.019277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.044325 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab
+  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c44ce76511869efe2a8987e5199a58') in 0.021502 seconds 
+  Import took 0.026676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.152475 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab
+  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a53ce394d423bfa535e300b153cfdd') in 0.009887 seconds 
+  Import took 0.013858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.352619 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab
+  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956584ca0e154679524214d5173d9126') in 0.020011 seconds 
+  Import took 0.024699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.698232 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab
+  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02380a4c906fac1083371699633098e7') in 0.010277 seconds 
+  Import took 0.015402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.574319 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab
+  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32fea2bf03f01a17f47774e1f7c7d7d') in 0.013033 seconds 
+  Import took 0.017852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.654196 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab
+  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf62430cee2edf2caa1e146aa660d47') in 0.015088 seconds 
+  Import took 0.021159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.128919 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab
+  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0db17f384696121073f78fabbf68f52') in 0.011208 seconds 
+  Import took 0.016267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.751069 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab
+  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae57b62a71548596a843a5cebb667fe') in 0.015340 seconds 
+  Import took 0.022611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.677339 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6708facab50938faf7da2ce5d359a0') in 0.021664 seconds 
+  Import took 0.028036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.129601 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5782afe0d9aedb358c8de6c0386b704e') in 0.013357 seconds 
+  Import took 0.018994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.297412 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c5ab6c5e11b4c42bcf2f5a1b64f0db') in 0.011292 seconds 
+  Import took 0.016120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.088632 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f94d425f821d4907f3ca15691af9c6') in 0.013179 seconds 
+  Import took 0.017387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.336075 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581464da2df54f208b3c63046720c72c') in 0.011565 seconds 
+  Import took 0.017738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.327245 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd8979471e0f1fcbcb1b3c40140f238') in 0.011041 seconds 
+  Import took 0.015110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.713165 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
+  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1b47efa84aaeddc175b408e652129c') in 0.016291 seconds 
+  Import took 0.020932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.648501 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
+  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebc333c95ead87ef78f08bd57c9205b') in 0.009958 seconds 
+  Import took 0.015125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.073285 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
+  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5c33d60dbb66f291275940bb259d35') in 0.008554 seconds 
+  Import took 0.015183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.649441 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
+  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd357a0fe2811fe263eb3865fa3505315') in 0.008359 seconds 
+  Import took 0.013660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.607080 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
+  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ed1b3eb5e3c462155ebb0f345be375') in 0.011541 seconds 
+  Import took 0.016617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.425442 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
+  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e1ed0d359aab4f9691d82defa14cf1') in 0.009671 seconds 
+  Import took 0.014650 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.019238 seconds.
+Registered in 0.013532 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity\0-VR\0-Multiplayer\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -329,17 +511,17 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
+- Completed reload, in  1.164 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.58 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2180 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2663.
-Total: 8.223100 ms (FindLiveObjects: 0.521000 ms CreateObjectMapping: 0.112800 ms MarkObjects: 7.111600 ms  DeleteObjects: 0.476700 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 2.297100 ms (FindLiveObjects: 0.224000 ms CreateObjectMapping: 0.076400 ms MarkObjects: 1.936700 ms  DeleteObjects: 0.058800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -352,4 +534,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
