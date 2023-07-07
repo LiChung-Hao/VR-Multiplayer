@@ -56,16 +56,16 @@ public class AvatarSelectionManager : MonoBehaviour
        
     }
 
-    public void ActivateAvatarSelectionPlatform()
-    {
-        AvatarSelectionPlatformGameobject.SetActive(true);
-    }
+    //public void ActivateAvatarSelectionPlatform()
+    //{
+    //    AvatarSelectionPlatformGameobject.SetActive(true);
+    //}
 
-    public void DeactivateAvatarSelectionPlatform()
-    {
-        AvatarSelectionPlatformGameobject.SetActive(false);
+    //public void DeactivateAvatarSelectionPlatform()
+    //{
+    //    AvatarSelectionPlatformGameobject.SetActive(false);
 
-    }
+    //}
 
     public void NextAvatar()
     {
