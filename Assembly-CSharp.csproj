@@ -58,14 +58,22 @@
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\Avatar Selection Script\AvatarHolder.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceProximityChat\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\HandCollider.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\VoiceDemoUI.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\NetworkedGrabbing.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceProximityChat\Scripts\PointersController.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\PlayerNetworkSetup.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\CancelKey.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\Highlighter.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceProximityChat\Scripts\ProximityVoiceTrigger.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Layouts\Dvorak.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\ChangePOV.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LetterKey.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\VirtualWorldManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
@@ -73,71 +81,64 @@
     <Compile Include="Assets\IRONHEAD Games\Scripts\LoginUIManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\MicrophoneSelector.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\BaseController.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Layout.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\ShiftKey.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\MultiplayerVRSynchronization.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\CharacterInstantiation.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\CodecSettingsUI.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\AvatarInputConverter.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\VRKeyboardManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\ActionBasedControllerManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\BackspaceKey.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\RoomManager.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\UiExtensions.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\LoginManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\SpaceKey.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\PhotonDemoExtensions.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\ClearKey.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\SidebarToggle.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\BackgroundMusicController.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\ButtonInteraction.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceProximityChat\Scripts\ChangeName.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\BetterToggle.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Keyboard.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Layouts\French.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\LocalPlayerUIManager.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Key.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Example\DemoScene.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Placement.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\UI_InteractionController.cs" />
     <Compile Include="Assets\IRONHEAD Games\Scripts\MultiplayerVRConstants.cs" />
     <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Controller.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\Fusion\DemoNetworkObject\PrefabSpawner.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\DemoVoiceUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
-    <Compile Include="Assets\IRONHEAD Games\Scripts\Avatar Selection Script\AvatarSelectionManager.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
-    <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\EnterKey.cs" />
-    <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Mallet.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LayoutList.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceProximityChat\Scripts\ChangeColor.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\VoiceDemoUI.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\MicrophoneSelector.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\SidebarToggle.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\BaseController.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\BackgroundMusicController.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceProximityChat\Scripts\PointersController.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\Highlighter.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\CharacterInstantiation.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceProximityChat\Scripts\ChangeName.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\CodecSettingsUI.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\OrthographicController.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\Avatar Selection Script\AvatarSelectionManager.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\OrthographicController.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\RemoteSpeakerUI.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\ThirdPersonController.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\BetterToggle.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceProximityChat\Scripts\ProximityVoiceTrigger.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\EnterKey.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\ChangePOV.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\Mallet.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\MouseLookHelper.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\UiExtensions.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\Fusion\DemoNetworkObject\PrefabSpawner.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\PhotonDemoExtensions.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\DemoVoiceUI.cs" />
+    <Compile Include="Assets\IRONHEAD Games\VRKeys\Scripts\LayoutList.cs" />
+    <Compile Include="Assets\IRONHEAD Games\Scripts\VoiceChatMic\MicPermissionHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\IRONHEAD Games\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -409,14 +410,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Unity\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
-    </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\2020.3.13f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -779,6 +780,10 @@
       <Project>{A71C218E-A738-5002-0640-6C060E694E5D}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="MicAmplifierEditor.Editor.csproj">
+      <Project>{E004B8E6-536D-6704-2EE3-F59E48809712}</Project>
+      <Name>MicAmplifierEditor.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{E5914D29-5BEB-8BFC-F0AD-C0F2DB51D6C6}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
@@ -790,6 +795,10 @@
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
       <Project>{30EAD157-0080-AC70-F10C-094D01F374A6}</Project>
       <Name>Unity.XR.Management.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonVoice.API.csproj">
+      <Project>{5FD8CD1A-655F-2312-4EA9-8724B0E2E5F9}</Project>
+      <Name>PhotonVoice.API</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{0D02A234-B44F-9907-C280-13DA64D66283}</Project>
@@ -815,9 +824,9 @@
       <Project>{4CCDD9BD-B72B-5FB9-849A-E3CAA9DC0E70}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{B5672EF2-D44F-5398-3148-2E7E20B80369}</Project>
-      <Name>PhotonRealtime</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{55579802-2ECE-130C-2888-00DFEB4AF008}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{D832BA5B-32F6-2E59-A6E9-5EB065C150DD}</Project>
@@ -827,6 +836,10 @@
       <Project>{3FD1C07D-32D5-970E-5C21-24DD56A0BC71}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{B5672EF2-D44F-5398-3148-2E7E20B80369}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{00097913-801C-4A90-ABEE-E83747AE6190}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
@@ -835,13 +848,17 @@
       <Project>{DC715D8B-A8BA-1D4B-90A5-381628E2FA13}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{55579802-2ECE-130C-2888-00DFEB4AF008}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
+    <ProjectReference Include="PhotonVoice.csproj">
+      <Project>{3B2E6D46-7D88-6DB3-CEB6-B5C4E9A9EB94}</Project>
+      <Name>PhotonVoice</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
       <Project>{41787D42-3E3B-8CB5-1FEB-324C67B8E82D}</Project>
       <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonVoice.Editor.csproj">
+      <Project>{99CD292B-8691-DEA4-51BE-22603E9F086E}</Project>
+      <Name>PhotonVoice.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
       <Project>{0DF63497-4C5F-04DF-AE78-E772B4ABCF32}</Project>
@@ -863,6 +880,14 @@
       <Project>{7A30350C-4921-DF72-2FFE-457F0D4AA049}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
+      <Project>{9D09BFAB-FAC0-B9B3-28F4-0173C3298F3C}</Project>
+      <Name>PhotonVoice.PUN.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonVoice.Utilities.Editor.csproj">
+      <Project>{CD126DE5-5214-AAD0-2401-C3B40D16D62A}</Project>
+      <Name>PhotonVoice.Utilities.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
       <Project>{6897D935-A823-8956-DF8F-2B6843652F66}</Project>
       <Name>Unity.XR.Oculus.Editor</Name>
@@ -883,37 +908,13 @@
       <Project>{F48737A5-3800-2DE7-9B34-37286EAF64B2}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{454EF592-E0CF-8060-FA56-A6DB4DC9FFC8}</Project>
-      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MicAmplifierEditor.Editor.csproj">
-      <Project>{E004B8E6-536D-6704-2EE3-F59E48809712}</Project>
-      <Name>MicAmplifierEditor.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonVoice.PUN.csproj">
       <Project>{BAF51671-D501-39F5-AD0C-C2CA24D0C1A1}</Project>
       <Name>PhotonVoice.PUN</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonVoice.API.csproj">
-      <Project>{5FD8CD1A-655F-2312-4EA9-8724B0E2E5F9}</Project>
-      <Name>PhotonVoice.API</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.Utilities.Editor.csproj">
-      <Project>{CD126DE5-5214-AAD0-2401-C3B40D16D62A}</Project>
-      <Name>PhotonVoice.Utilities.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.csproj">
-      <Project>{3B2E6D46-7D88-6DB3-CEB6-B5C4E9A9EB94}</Project>
-      <Name>PhotonVoice</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.Editor.csproj">
-      <Project>{99CD292B-8691-DEA4-51BE-22603E9F086E}</Project>
-      <Name>PhotonVoice.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
-      <Project>{9D09BFAB-FAC0-B9B3-28F4-0173C3298F3C}</Project>
-      <Name>PhotonVoice.PUN.Editor</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{454EF592-E0CF-8060-FA56-A6DB4DC9FFC8}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

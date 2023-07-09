@@ -7,6 +7,7 @@ using Photon.Pun;
 public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
 {
     public GameObject LocalVRRigPlayerGameObject;
+    public GameObject MainAvatarGameObject;
 
     public GameObject AvatarHeadGameObject;
     public GameObject AvatarBodyGameObject;
@@ -42,7 +43,7 @@ public class PlayerNetworkSetup : MonoBehaviourPunCallbacks
                     item.teleportationProvider=LocalVRRigPlayerGameObject.GetComponent<TeleportationProvider>();
                 }
             }
-
+            MainAvatarGameObject.AddComponent<AudioListener>();
         }
         else
         {

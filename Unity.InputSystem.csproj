@@ -232,9 +232,9 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\SteamController.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\AnyKeyControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\EditorHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\TypeTable.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\NormalizeVector3Processor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\AxisControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\TypeTable.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\ScaleVector2Processor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Settings\InputEditorUserSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\ButtonControl.cs" />
@@ -272,8 +272,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\SteamControllerType.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Users\InputUserSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Switch\SwitchSupportHID.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\WebGL\WebGLSupport.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Switch\SwitchSupportHID.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\IInputActionCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\InitiateUserAccountPairingCommand.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\InputStateWindow.cs" />
@@ -575,12 +575,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:\Unity\2020.3.13f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.5.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
-    </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
     </Reference>
@@ -589,6 +583,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.5.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.5.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
